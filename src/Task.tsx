@@ -7,9 +7,13 @@ interface TaskProps {
 
 const Task: React.FC<TaskProps> = props => {
   return (
-    <div className="task-block">
-      <p>{props.task}</p>
-      <button onClick={props.remove}>Del</button>
+    <div  className="task-block">
+      <div>
+        {props.task}
+      </div>
+      <div className="btn-del">
+        <button onClick={props.remove} className="del">❌</button>
+      </div>
     </div>
   );
 };

@@ -1,3 +1,51 @@
 .App {
   text-align: center;
 }
+
+.header {
+  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+  margin: 20px auto;
+  border: 2px solid #5d0cff;
+  color: white;
+  width: 13.8%;
+  border-radius: 3px;
+}
+
+.task-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  width: 40%;
+  margin: 15px auto 0;
+  text-align: left;
+  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.App input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  background: transparent;
+}
+
+.todo-btn {
+  padding: 16px 7px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.del {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

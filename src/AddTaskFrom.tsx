@@ -10,7 +10,7 @@ const AddTaskForm: React.FC<AddTaskFormProps> = props => {
     <form className="todo-block">
       <input
         type="text"
-        placeholder="Add new task"
+        placeholder="Add new task..."
         onChange={props.value}
       />
       <button
